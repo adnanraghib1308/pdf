@@ -27,7 +27,7 @@ try {
         var template = handlebars.compile(templateHtml);
         var finalHtml = encodeURIComponent(template(dataBinding));
         var options = {
-            format: 'A4',
+            format: 'Ledger',
             headerTemplate: "<p></p>",
             footerTemplate: "<p></p>",
             displayHeaderFooter: false,
